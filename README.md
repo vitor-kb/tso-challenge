@@ -15,6 +15,7 @@ Funcionamento
 - Ao realizar o download do arquivo ```.zip```, extraia para uma pasta de sua preferência e execute o arquivo ```index.html``` dentro da pasta ```html```.
 
 - Onde visualizará uma tela como essa, podendo adicionar, remover ou editar tarefas, cada uma com seu específico ID:
+
 ![task-mngr-screen](./images/image-2.png)
 
 - Ao recarregar a página ```F5``` ou ```CTRL+F5``` note que as tarefas ainda permanecem lá, permitindo a edição e visualização por ID.
