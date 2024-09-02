@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 30%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input,
+textarea,
+select,
+button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+#task-list {
+  margin-top: 20px;
+}
+
+.task {
+  background-color: #e9ecef;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-left: 5px solid #007bff;
+}
+
+.task.completed {
+  border-left-color: #28a745;
+}
+
+.task-title {
+  font-weight: bold;
+}
+
+.task-controls {
+  margin-top: 10px;
+}
+
+button.edit,
+button.delete {
+  background-color: #ffc107;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+button.delete {
+  background-color: #dc3545;
+}
+
+button.edit:hover {
+  background-color: #e0a800;
+}
+
+button.delete:hover {
+  background-color: #c82333;
+}
